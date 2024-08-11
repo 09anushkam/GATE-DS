@@ -1,0 +1,7 @@
+struct Node *Ptr;
+Ptr=START;
+
+while(Ptr!=NULL){
+    printf(" %d -> ",Ptr->data);
+    Ptr=Ptr->Link;
+}
